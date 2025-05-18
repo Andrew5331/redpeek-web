@@ -5,7 +5,7 @@ from PIL import Image
 st.set_page_config(page_title="Red Peek", layout="centered", page_icon="🕹️")
 
 # Cargar y mostrar la imagen de portada
-portada = Image.open("portada.jpg")
+portada = Image.open("Portada.jpg")
 st.image(portada, use_column_width=True)
 
 # Título y tagline
